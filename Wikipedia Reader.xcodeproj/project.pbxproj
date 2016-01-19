@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0115591C4D4EDD008F78AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0115581C4D4EDD008F78AC /* main.m */; };
+		BC01155C1C4D4EDD008F78AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC01155B1C4D4EDD008F78AC /* AppDelegate.m */; };
+		BC01155F1C4D4EDD008F78AC /* ArticleDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC01155E1C4D4EDD008F78AC /* ArticleDisplayController.m */; };
+		BC0115621C4D4EDD008F78AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0115601C4D4EDD008F78AC /* Main.storyboard */; };
+		BC0115641C4D4EDD008F78AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0115631C4D4EDD008F78AC /* Assets.xcassets */; };
+		BC0115671C4D4EDD008F78AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0115651C4D4EDD008F78AC /* LaunchScreen.storyboard */; };
+		BC0115701C4D51F8008F78AC /* FavouritesController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC01156F1C4D51F8008F78AC /* FavouritesController.m */; };
+		BC0115731C4D628D008F78AC /* AddToFavouritesActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0115721C4D628D008F78AC /* AddToFavouritesActivity.m */; };
+		BC0115761C4D6853008F78AC /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0115751C4D6853008F78AC /* Article.m */; };
+		BC1D6A431C4E2AA400D99898 /* ArticleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1D6A421C4E2AA400D99898 /* ArticleManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC0115541C4D4EDD008F78AC /* Wiki Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wiki Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0115581C4D4EDD008F78AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC01155A1C4D4EDD008F78AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC01155B1C4D4EDD008F78AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC01155D1C4D4EDD008F78AC /* ArticleDisplayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleDisplayController.h; sourceTree = "<group>"; };
+		BC01155E1C4D4EDD008F78AC /* ArticleDisplayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleDisplayController.m; sourceTree = "<group>"; };
+		BC0115611C4D4EDD008F78AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC0115631C4D4EDD008F78AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC0115661C4D4EDD008F78AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC0115681C4D4EDD008F78AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC01156E1C4D51F8008F78AC /* FavouritesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesController.h; sourceTree = "<group>"; };
+		BC01156F1C4D51F8008F78AC /* FavouritesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesController.m; sourceTree = "<group>"; };
+		BC0115711C4D628D008F78AC /* AddToFavouritesActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToFavouritesActivity.h; sourceTree = "<group>"; };
+		BC0115721C4D628D008F78AC /* AddToFavouritesActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToFavouritesActivity.m; sourceTree = "<group>"; };
+		BC0115741C4D6853008F78AC /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		BC0115751C4D6853008F78AC /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		BC1D6A411C4E2AA400D99898 /* ArticleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleManager.h; sourceTree = "<group>"; };
+		BC1D6A421C4E2AA400D99898 /* ArticleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0115511C4D4EDD008F78AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC01154B1C4D4EDD008F78AC = {
+			isa = PBXGroup;
+			children = (
+				BC0115561C4D4EDD008F78AC /* Wikipedia Reader */,
+				BC0115551C4D4EDD008F78AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0115551C4D4EDD008F78AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0115541C4D4EDD008F78AC /* Wiki Reader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0115561C4D4EDD008F78AC /* Wikipedia Reader */ = {
+			isa = PBXGroup;
+			children = (
+				BC01155A1C4D4EDD008F78AC /* AppDelegate.h */,
+				BC01155B1C4D4EDD008F78AC /* AppDelegate.m */,
+				BC01155D1C4D4EDD008F78AC /* ArticleDisplayController.h */,
+				BC01155E1C4D4EDD008F78AC /* ArticleDisplayController.m */,
+				BC01156E1C4D51F8008F78AC /* FavouritesController.h */,
+				BC01156F1C4D51F8008F78AC /* FavouritesController.m */,
+				BC1D6A451C4E2AF400D99898 /* Article */,
+				BC1D6A441C4E2AE800D99898 /* Resources */,
+				BC0115571C4D4EDD008F78AC /* Supporting Files */,
+			);
+			path = "Wikipedia Reader";
+			sourceTree = "<group>";
+		};
+		BC0115571C4D4EDD008F78AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC0115681C4D4EDD008F78AC /* Info.plist */,
+				BC0115581C4D4EDD008F78AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC1D6A441C4E2AE800D99898 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC0115601C4D4EDD008F78AC /* Main.storyboard */,
+				BC0115631C4D4EDD008F78AC /* Assets.xcassets */,
+				BC0115651C4D4EDD008F78AC /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC1D6A451C4E2AF400D99898 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				BC0115711C4D628D008F78AC /* AddToFavouritesActivity.h */,
+				BC0115721C4D628D008F78AC /* AddToFavouritesActivity.m */,
+				BC0115741C4D6853008F78AC /* Article.h */,
+				BC0115751C4D6853008F78AC /* Article.m */,
+				BC1D6A411C4E2AA400D99898 /* ArticleManager.h */,
+				BC1D6A421C4E2AA400D99898 /* ArticleManager.m */,
+			);
+			name = Article;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0115531C4D4EDD008F78AC /* Wikipedia Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC01156B1C4D4EDD008F78AC /* Build configuration list for PBXNativeTarget "Wikipedia Reader" */;
+			buildPhases = (
+				BC0115501C4D4EDD008F78AC /* Sources */,
+				BC0115511C4D4EDD008F78AC /* Frameworks */,
+				BC0115521C4D4EDD008F78AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wikipedia Reader";
+			productName = "Wikipedia Reader";
+			productReference = BC0115541C4D4EDD008F78AC /* Wiki Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC01154C1C4D4EDD008F78AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dmitry Beloborodov";
+				TargetAttributes = {
+					BC0115531C4D4EDD008F78AC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BC01154F1C4D4EDD008F78AC /* Build configuration list for PBXProject "Wikipedia Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC01154B1C4D4EDD008F78AC;
+			productRefGroup = BC0115551C4D4EDD008F78AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0115531C4D4EDD008F78AC /* Wikipedia Reader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0115521C4D4EDD008F78AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0115671C4D4EDD008F78AC /* LaunchScreen.storyboard in Resources */,
+				BC0115641C4D4EDD008F78AC /* Assets.xcassets in Resources */,
+				BC0115621C4D4EDD008F78AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0115501C4D4EDD008F78AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC01155F1C4D4EDD008F78AC /* ArticleDisplayController.m in Sources */,
+				BC0115701C4D51F8008F78AC /* FavouritesController.m in Sources */,
+				BC0115761C4D6853008F78AC /* Article.m in Sources */,
+				BC01155C1C4D4EDD008F78AC /* AppDelegate.m in Sources */,
+				BC0115731C4D628D008F78AC /* AddToFavouritesActivity.m in Sources */,
+				BC1D6A431C4E2AA400D99898 /* ArticleManager.m in Sources */,
+				BC0115591C4D4EDD008F78AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC0115601C4D4EDD008F78AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0115611C4D4EDD008F78AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC0115651C4D4EDD008F78AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0115661C4D4EDD008F78AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0115691C4D4EDD008F78AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC01156A1C4D4EDD008F78AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC01156C1C4D4EDD008F78AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wikipedia Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany;
+				PRODUCT_NAME = "Wiki Reader";
+			};
+			name = Debug;
+		};
+		BC01156D1C4D4EDD008F78AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wikipedia Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany;
+				PRODUCT_NAME = "Wiki Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC01154F1C4D4EDD008F78AC /* Build configuration list for PBXProject "Wikipedia Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0115691C4D4EDD008F78AC /* Debug */,
+				BC01156A1C4D4EDD008F78AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC01156B1C4D4EDD008F78AC /* Build configuration list for PBXNativeTarget "Wikipedia Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01156C1C4D4EDD008F78AC /* Debug */,
+				BC01156D1C4D4EDD008F78AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC01154C1C4D4EDD008F78AC /* Project object */;
+}

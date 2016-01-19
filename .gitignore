@@ -1,0 +1,12 @@
+*.xcodeproj/xcuserdata/*
+*.xcodeproj/project.xcworkspace/*
+*.xcworkspace/xcuserdata/*
+*.xcworkspace/xcshareddata/*
+*.xcworkspacedata
+*.xcuserstate
+
+Pods/
+*.lock
+.DS_Store
+Iconr
+*.xcworkspace/Icon*
